@@ -51,17 +51,17 @@
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav" >
                     <li>
-                        <a class="smoothScroll" href="#about" >HISTORY</a>
+                        <a class="smoothScroll" href="#about" >History</a>
                     </li>
                     <li>
-                        <a class="smoothScroll" href="#contact" >CONTACT</a>
+                        <a class="smoothScroll" href="#contact" >Contact</a>
                     </li>
                     <li>
-                        <a class="smoothScroll" href="#about" >NEW REGISTRATION</a>
+                        <a class="smoothScroll" href="#about" >New Registration</a>
                     </li>
                     <!-- Direct Link to Google Login. Bypass Login.php -->
                     <li>
-                        <a class="smoothScroll" href="#contact"  ><i class="fa fa-google-plus"></i> LOGIN</a>
+                        <a class="smoothScroll" href="#contact"  ><i class="fa fa-google-plus"></i> Log In</a>
                     </li>
                     
                 </ul>
@@ -260,16 +260,75 @@
                     </div>
                     <div class="row" style="padding-top: 10px">
                         <div class="col-lg-12 text-center">
-                            <a href="#contact" onClick="alert('Faiz Address:\nShop Near Gold Gym,\nLane adjacent to Satyanand Hospital,\nBetween Badshah Nagar and Sheetal Petrol Pump')"><img src='img/locicon.png' class="img-circle" width="70" height="70"></a>
-                            <a href="#contact" onClick="alert('Faiz Email:\nhelp@faizstudents.com')"><img src='img/mailicon.png' class="img-circle" width="80" height="80"></a>
-                            <a href="#contact" onClick="alert('Faiz Contact:\nMustafa Shk Hatim bhai Manawarwala-9049378652\nYusuf Husain bhai Rampurwala-9503054797')"><img src='img/phoneicon.png' class="img-circle" width="70" height="70"></a>
+                            <a href="#contact" data-toggle="modal" data-target="#locationicon"><img src='img/locicon.png' class="img-circle" width="70" height="70"></a>
+                            <a href="#contact" data-toggle="modal" data-target="#mailicon"><img src='img/mailicon.png' class="img-circle" width="80" height="80"></a>
+                            <a href="#contact" data-toggle="modal" data-target="#phoneicon"><img src='img/phoneicon.png' class="img-circle" width="70" height="70"></a>
 
                         </div>
                     </div>
                 </div>
             </section>
 
-            
+            <div id="phoneicon" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Faiz Help-Line Number</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Mustafa Shk Hatim bhai Manawarwala -<input type="text"  value="9049378652"></p>
+                    <p>Yusuf Husain bhai Rampurwala -<input type="text" value="9503054797"></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+             </div>
+            </div>
+
+            <div id="mailicon" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Faiz Support Email</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p><input type="text" value="help@faizstudents.com"></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div id="locationicon" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Faiz Location Address</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p><textarea rows="3">Shop Near Gold Gym,
+Lane adjacent to Satyanand Hospital,
+Between Badshah Nagar and Sheetal Petrol Pump</textarea></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
 
             <!-- jQuery -->
             <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
