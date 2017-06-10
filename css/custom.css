@@ -161,6 +161,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-inverse .navbar-brand {
   font-size: 35px;
   font-family: Alkanz;
+  font-style: bold;
+  font-weight: 700;
   direction: rtl;
   color: #fff;
   padding-top: 22px;
@@ -170,6 +172,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-inverse .navbar-brand:focus {
   direction: ltr;
   font-family: Alkanz;
+  font-weight: 700;
+  font-style: bold;
   color: #fed136;
   background-color: transparent;
 } 
@@ -178,12 +182,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-inverse .navbar-nav > li > a {
   font-size: 20px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   color: #fff;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   color: #fed136;
   background-color: transparent;
 }
