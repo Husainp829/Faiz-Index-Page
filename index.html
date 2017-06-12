@@ -25,7 +25,7 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/custom.css" rel="stylesheet">
-
+    
     
 
 </head>
@@ -33,6 +33,7 @@
 <body id="page-top" class="index">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>   
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top opaque-navbar " role="navigation">
@@ -57,11 +58,11 @@
                         <a class="smoothScroll" href="#contact" >Contact</a>
                     </li>
                     <li>
-                        <a class="smoothScroll" href="#about" >New Registration</a>
+                        <a class="smoothScroll custom-tooltip" href="http://localhost/Registration" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<p align=left>1. Click on the link and fill the form.<br>2. Bring along your hub (Rs 3000), new registration fee (Rs 500), and ITS card xerox to faiz to activate thali.<br>3. Once activated you will receive a confirmation email with your thali number.</p>" >New Registration</a>
                     </li>
                     <!-- Direct Link to Google Login. Bypass Login.php -->
                     <li>
-                        <a class="smoothScroll" href="#contact"  ><i class="fa fa-google-plus"></i> Log In</a>
+                        <a class="smoothScroll custom-tooltip" href="#contact" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<p align=left>Use the link to login to your account. It can be used for the following-<br>1. Start/Stop a thaali<br>2. Start/Stop trantsport<br>3. Update name / phone number /address details</p>"><i class="fa fa-google-plus"></i> Log In</a>
                     </li>
                     
                 </ul>
@@ -76,9 +77,7 @@
     <header id="Intro-Page">
         <div class="container">
             <div class="intro-text">
-                <!-- Rasullulah SAW Hadees or Kalemaat Nooraniya( One Line) to be added. Font To be changed based on background -->
                 <div class="intro-lead-in">ﻓﻴﺾ اﻟﻤﻮاﺋﺪ اﻟﺒﺮﻫﺎﻧﻴﺔ</div>
-                <!-- Rasullulah SAW Hadees or Kalemaat Nooraniya |  Font To be changed based on background-->
                 <div class="intro-heading">ﻓﻴﺾ اﻟﻤﻮاﺋﺪ اﻟﺒﺮﻫﺎﻧﻴﺔ</div>
                 <a href="#services" class="smoothScroll btn btn-xl">Tell Me More</a>
             </div>
@@ -278,9 +277,9 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Faiz Help-Line Number</h4>
                   </div>
-                  <div class="modal-body">
-                    <p>Mustafa Shk Hatim bhai Manawarwala -<input type="text"  value="9049378652"></p>
-                    <p>Yusuf Husain bhai Rampurwala -<input type="text" value="9503054797"></p>
+                  <div class="modal-body" style="background-color: #fed136;">
+                    <p>Mustafa Shk Hatim bhai Manawarwala -<a href="tel:9049378652" style="color: black";><input type="text"  value="9049378652"></a></p>
+                    <p>Yusuf Husain bhai Rampurwala -<a href="tel:9503054797" style="color: black";><input type="text" value="9503054797"></a></p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -298,8 +297,8 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Faiz Support Email</h4>
                   </div>
-                  <div class="modal-body">
-                    <p><input type="text" value="help@faizstudents.com"></p>
+                  <div class="modal-body" style="background-color: #fed136;">
+                    <p><a href="mailto:help@faizstudents.com" style="color: black";><input type="text" value="help@faizstudents.com"></p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -317,7 +316,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Faiz Location Address</h4>
                   </div>
-                  <div class="modal-body">
+                  <div class="modal-body" style="background-color: #fed136;">
                     <p><textarea rows="3">Shop Near Gold Gym,
 Lane adjacent to Satyanand Hospital,
 Between Badshah Nagar and Sheetal Petrol Pump</textarea></p>
