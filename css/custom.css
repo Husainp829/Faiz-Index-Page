@@ -109,6 +109,12 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   padding: 20px 40px;
 }
+.btn-md {
+  color: white;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -181,7 +187,7 @@ fieldset[disabled] .btn-xl.active {
   font-size: 35px;
   font-family: Alkanz;
   font-style: bold;
-  font-weight: 700;
+  font-weight: 500;
   direction: rtl;
   color: #fff;
   padding-top: 22px;
@@ -552,3 +558,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+
+
+

@@ -15,3 +15,17 @@ jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
  $(document).ready(function(){
     $("a").tooltip();
 });
+
+
+$(document).ready(function(){
+  $("#zabihat").click(function(){
+      $('#message').html('Subject: Zabihat Khidmat\nI would like to contribute for zabihat kindly contact me for the procedure.');
+  });
+});
+
+$(document).ready(function(){
+  $("#salawaat").click(function(){
+      $('#message').html('Subject: Salawaat/Fateha\nI would like to contribute for Salawaat/Fateha kindly contact me for the procedure.');
+  });
+});
+ 
